@@ -28,5 +28,5 @@ document.getElementById("footer").innerHTML = footer;
 
 ## Operations
 
-The appending of `footer` to the inner HTML of the fooer using `document.getElementById("footer").innerHTML` repleaces `<script src="http://cdn.mf/date.js/footer-date.js"></script>` with
+The appending of `footer` to the inner HTML of the footer using `document.getElementById("footer").innerHTML` repleaces `<script src="http://cdn.mf/date.js/footer-date.js"></script>` with
 `MaX Falstein gTLD &copy; MaX Falstein and Falstein Inc. &#8212; January 2018 &#8212; Patents and Trademarks Pending` giving the impression when inspecting the source the footer is not procedurally generated unless viewing the sources and network tabs in developer tools in most browsers.
